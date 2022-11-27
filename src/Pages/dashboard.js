@@ -4,6 +4,7 @@ import MainBox from "../components/main_box";
 import LeadBox from "../components/lead_box";
 import Stocks from "../components/stocks";
 import Shares from "../components/shares";
+import BoxExemple from "../components/exemple";
 
 const Dashboard = () => {
   return (
@@ -21,6 +22,7 @@ const Dashboard = () => {
         </div>
         <div className="template-row">
           <Shares />
+          <BoxExemple />
         </div>
       </div>
     </div>

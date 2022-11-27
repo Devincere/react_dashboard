@@ -151,3 +151,25 @@ body{
   border-radius: 20px 20px 0 0 ;
   padding: 15px 50px;
 }
+
+.callout-box{
+  display: block;
+  width: 660px;
+  height: 315px;
+  background-color: rgb(157, 195, 243);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 15px;
+}
+
+.callout-box-header{
+  display: flex;
+  align-items: center;
+  background-color: rgba(250, 254, 254, 0.508);
+  border-radius: 20px 20px 0 0 ;
+  padding: 15px 50px;
+}
+
+.callout-box-body{
+  padding: 50px 50px;
+}
