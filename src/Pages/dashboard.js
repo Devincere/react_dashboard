@@ -3,6 +3,7 @@ import Profile from "../components/profile";
 import MainBox from "../components/main_box";
 import LeadBox from "../components/lead_box";
 import Stocks from "../components/stocks";
+import Shares from "../components/shares";
 
 const Dashboard = () => {
   return (
@@ -17,7 +18,10 @@ const Dashboard = () => {
         <div className="template-row">
           <LeadBox />
           <Stocks />
-         </div> 
+        </div>
+        <div className="template-row">
+          <Shares />
+        </div>
       </div>
     </div>
   );
