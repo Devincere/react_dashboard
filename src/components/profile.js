@@ -8,7 +8,7 @@ const Profile = () => {
         <h2 className="profile-name">Vincent</h2>
       </div>
       <div>
-        <p className="profile-login"> v.durox@icloud.com</p>
+        <p className="profile-login"> exemple@exemple.com</p>
       </div>
     </div>
   );
