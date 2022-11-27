@@ -2,6 +2,7 @@ import Navbar from "../components/navbar";
 import Profile from "../components/profile";
 import MainBox from "../components/main_box";
 import LeadBox from "../components/lead_box";
+import Stocks from "../components/stocks";
 
 const Dashboard = () => {
   return (
@@ -15,6 +16,7 @@ const Dashboard = () => {
         </div>
         <div className="template-row">
           <LeadBox />
+          <Stocks />
          </div> 
       </div>
     </div>
