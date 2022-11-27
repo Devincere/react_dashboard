@@ -1,17 +1,35 @@
 const Navbar = () => {
   return (
-    <nav className="navbar bg-primary">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="...">
-          <img
-            src="/logo512.png"
-            alt="Logo"
-            width="30"
-            height="24"
-            className="d-inline-block align-text-top"
-          />
-          Devincere
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="...">
+          <h2>Devincere</h2>
         </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarText"
+        >
+          <ul class="navbar-nav ">
+            <a class="nav-link active" aria-current="page" href="...">
+              Home
+            </a>
+
+            <a class="nav-link" href="...">
+              Sign out
+            </a>
+          </ul>
+        </div>
       </div>
     </nav>
   );

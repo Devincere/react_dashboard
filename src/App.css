@@ -1,6 +1,7 @@
 body{
-  background-color: azure;
-  height: 100vh;
+  background: -webkit-radial-gradient(52% 0%, ellipse cover, #E6E6E6 0, #9DC6FC 100%); 
+
+  height: 200vh;
 }
 
 
